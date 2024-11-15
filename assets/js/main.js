@@ -12,24 +12,24 @@ var bottomGrey2 = document.getElementById('bottomgrey2');
 function darkmode() {
     themeStyle.setAttribute('href', 'assets/css/dark.css'); 
     toggle.className='fa-solid fa-toggle-off toggleon';
-    topWhite.src='assets/images/shape-top-black-80.png';
-    bottomWhite.src='assets/images/shape-bottom-black-80.png';
-    topGrey.src='assets/images/shape-top-dark-grey-80.png';
-    bottomGrey.src='assets/images/shape-bottom-dark-grey-80.png';
-    topGrey2.src='assets/images/shape-top-dark-grey-80.png';
-    bottomGrey2.src='assets/images/shape-bottom-dark-grey-80.png';
+    topWhite.src='../images/shape-top-black-80.png';
+    bottomWhite.src='../images/shape-bottom-black-80.png';
+    topGrey.src='../images/shape-top-dark-grey-80.png';
+    bottomGrey.src='../images/shape-bottom-dark-grey-80.png';
+    topGrey2.src='../images/shape-top-dark-grey-80.png';
+    bottomGrey2.src='../images/shape-bottom-dark-grey-80.png';
 }
 
 // Light Mode
 function lightmode() {
     themeStyle.setAttribute('href', 'assets/css/light.css'); 
     toggle.className='fa-solid fa-toggle-on toggleon';
-    topWhite.src='assets/images/shape-top-white-80.png'
-    bottomWhite.src='assets/images/shape-bottom-white-80.png'
-    topGrey.src='assets/images/shape-top-grey-80.png'
-    bottomGrey.src='assets/images/shape-bottom-grey-80.png'
-    topGrey2.src='assets/images/shape-top-grey-80.png'
-    document.getElementById('bottomgrey2').src='assets/images/shape-bottom-grey-80.png'
+    topWhite.src='../images/shape-top-white-80.png'
+    bottomWhite.src='../images/shape-bottom-white-80.png'
+    topGrey.src='../images/shape-top-grey-80.png'
+    bottomGrey.src='../images/shape-bottom-grey-80.png'
+    topGrey2.src='../images/shape-top-grey-80.png'
+    document.getElementById('bottomgrey2').src='../images/shape-bottom-grey-80.png'
 }
 
 const toggleMode = () => {
